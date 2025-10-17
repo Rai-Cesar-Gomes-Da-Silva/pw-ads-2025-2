@@ -1,24 +1,23 @@
 .box {
-    border: 4px solid #333 !important;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+  border: 4px solid #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
-.box--large{
-    width:270px;
-    height:180px;
+.box--large {
+  width: 270px;
+  height: 270px;
 }
 
 .box--medium {
-    width:180px;
-    height: 180px;
+  width: 180px;
+  height: 180px;
 }
 
 .box--small {
-    width: 90px;
-    height: 90px;
+  width: 90px;
+  height: 90px;
 }
 
-/* quando se há mais de um !important prevalece aquele que for mais especifico*/
